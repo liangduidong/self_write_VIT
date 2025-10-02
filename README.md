@@ -11,6 +11,8 @@ VIT/
 │   ├── data_process.py        # 数据集加载与预处理
 ├── config/
 │   └── vit_config.py          # 模型与训练参数配置
+├── data/
+│   └── cifar-10-python.tar.gz # 自动下载的数据集
 ├── checkpoint/
 │   └── vit_cifar10.pth        # 训练好的模型权重（自动保存）
 ├── train_vit.py               # 训练与测试主程序
